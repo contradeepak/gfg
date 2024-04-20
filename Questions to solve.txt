@@ -1,0 +1,9 @@
+﻿Questions to solve
+
+
+Maximum prefix sum for a given range GFG
+
+
+Union of Two Sorted Arrays
+
+https://www.geeksforgeeks.org/explore?page=1&sortBy=submissions&source=google&medium=cpc&device=c&keyword=practice%20gfg&matchtype=b&campaignid=19552155281&adgroup=145127760237&gclid=CjwKCAjwrJ-hBhB7EiwAuyBVXeNDO3O7wNvJbVJWT3iRZDE8y3EDKdzQPjFwqQ67iDMgUf1nbuldeRoCJ8cQAvD_BwE
