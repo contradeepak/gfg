@@ -1,0 +1,36 @@
+Given an array arr[] containing only 0s, 1s, and 2s. Sort the array in ascending order.
+
+Examples:
+
+Input: arr[] = [0, 1, 2, 0, 1, 2]
+Output: [0, 0, 1, 1, 2, 2]
+Explanation: 0s 1s and 2s are segregated into ascending order.
+Input: arr[] = [0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1]
+Output: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2]
+Explanation: 0s 1s and 2s are segregated into ascending order.
+
+
+Solution :
+
+int n = arr.size();
+int i=-1, j=0, k=n-1;
+// Using Dutch National Flag Algorithm
+
+while(i<=j and j<=k)
+{
+    if(arr[j] == 0){
+        i++;
+        swap(arr[i], arr[j]);
+        j++;
+    }
+    else if(arr[j] == 2)
+    {
+        swap(arr[j], arr[k]);
+        k--;
+    }
+    else
+    {
+        j++;
+    }
+    }
+}
